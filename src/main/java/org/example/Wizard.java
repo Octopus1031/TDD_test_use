@@ -10,6 +10,7 @@ public class Wizard {
     private List<Spell> spells;
 
     public Wizard(String name, int health) {
+
     }
 
     public String getName() {
@@ -29,6 +30,7 @@ public class Wizard {
     }
 
     public void castSpell(Wizard target, Spell spell) {
+        
     }
 
     public void receiveSpell(Spell spell) {

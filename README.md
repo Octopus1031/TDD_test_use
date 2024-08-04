@@ -1,25 +1,15 @@
-# Example: Wizard Duel Tournament
+# Example：巫師決鬥錦標賽
 
-**Description:** Develop a wizard duel tournament simulator where multiple wizards compete against each other in magical battles.
+### Description:
+開發一個巫師決鬥錦標賽模擬器，讓多個巫師在魔法戰鬥中互相競爭。
 
-**Steps:**
+### Detail:
+每位巫師 `Wizard` 都擁有名字 `name` 、生命值 `health` 和咒語集 `spells`，  
+而每個咒語 `Spell` 都有名字 `name` 以及能夠造成的傷害值 `damage`，  
+在這個程式中巫師能夠學習咒語，並使用咒語攻擊對方巫師，  
+巫師在遭受攻擊後會根據咒語的傷害值而損失生命值。  
 
-1. Write a failing test case to verify that a wizard has a name, health, and a set of spells.
-2. Implement the minimal code required to make the test pass.
-3. Continuously refactor the code, improve test coverage, and ensure that all tests pass.
-   
-4. Write a failing test case to verify that a wizard can learn new spells.
-5. Implement the code to make the test pass.
-6. Continuously refactor the code, improve test coverage, and ensure that all tests pass.
-   
-7. Write a failing test case to verify that a wizard can cast a spell on another wizard.
-8. Implement the code to make the test pass.
-9. Continuously refactor the code, improve test coverage, and ensure that all tests pass.
-
-10. Write a failing test case to verify that a wizard's health decreases when they are hit by a spell.
-11. Implement the code to make the test pass.
-12. Continuously refactor the code, improve test coverage, and ensure that all tests pass.
-    
-13. Write a failing test case to simulate a wizard duel tournament where multiple wizards compete against each other.
-14. Implement the code to make the test pass.
-15. Continuously refactor the code, improve test coverage, and ensure that all tests pass.
+### Requirement:
+**請依據說明和註解完成所有程式與測試內容**，  
+在完成需求的同時也需考慮**盡量使用最少的程式碼來使測試通過**，  
+並且**持續重構代碼，改進測試覆蓋率，並確保所有測試通過。**  
